@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "VicM's website",
+  "main": "index.js",
+  "scripts": {
+    "dev":"next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Victor Maree<vicmr1994@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.12",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "framer-motion": "^4.1.17"
+  },
+  "devDependencies": {
+    "eslint-config-next": "^12.0.3",
+    "prettier": "^2.4.1"
+  }
+}
