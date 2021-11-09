@@ -1,4 +1,6 @@
-import "@fontsource/exo-2/300.css"
+import "@fontsource/signika-negative/300.css"
+
+
 
 import { ChakraProvider } from "@chakra-ui/provider";
 //import theme from "@chakra-ui/theme";
@@ -8,7 +10,7 @@ import { extendTheme } from "@chakra-ui/react";
 const theme = extendTheme({
     //think about dark / light mode
     fonts: {
-        heading: "Exo 2",
+        heading: "Signika Negative",
     }
 })
 
