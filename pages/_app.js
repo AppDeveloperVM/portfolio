@@ -1,7 +1,4 @@
 import "@fontsource/signika-negative/300.css"
-
-
-
 import { ChakraProvider } from "@chakra-ui/provider";
 //import theme from "@chakra-ui/theme";
 import { extendTheme } from "@chakra-ui/react";

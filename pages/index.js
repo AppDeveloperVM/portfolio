@@ -1,4 +1,4 @@
-import { Container,Box,Heading, SimpleGrid, HStack, Icon,Button,IconButton,Link,  Avatar } 
+import { Container,Box,Heading, Text,ListItem ,UnorderedList, SimpleGrid,Center, HStack, Icon,Button,IconButton,Link,  Avatar } 
 from "@chakra-ui/react"
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 
@@ -7,8 +7,8 @@ const Page = () => {
 
     return (
     <Container>
-        <Box borderRadius="lg" bg="grey" p={3} mb={6} align="center">
-        <div>Hello,Im a web developer</div>
+        <Box borderRadius="lg" bg="teal" p={3} mb={6} align="center">
+        <Text color="white">Hello,Im a web developer</Text>
         </Box>
         
         <Box display={{ md: 'flex'}}>
@@ -45,6 +45,68 @@ const Page = () => {
                 </Link>
             </Box>
         </HStack>
+
+        <SimpleGrid>
+        <Center bg="#AFEBF6">
+        <Heading as="h3" size="xl" color="white">
+            Work
+        </Heading>
+        </Center>
+        
+            <Box mt="">
+                <Text>
+                Ive been working around 3 years in Web Development in two companies.
+                This ones have multiple projects and some mobile apps.
+                </Text>
+            </Box>
+        </SimpleGrid>
+
+        <SimpleGrid columns={1} spacing={10} mt="10">
+ 
+            <Box>
+                <Heading as="h4" size="md">
+                <Link href="http://www.horanova.es/" isExternal>Hora Nova ( <Link isExternal href="https://www.gruposerra.com/">Grupo Serra</Link> )</Link> - <Link href="https://www.ultimahora.es/" is External>Última Hora</Link>
+                </Heading>
+
+                <UnorderedList>
+                    <ListItem>
+                        <Link isExternal href="https://www.novaproducciones.es/#myvideo">Nova Producciones</Link>
+                    </ListItem>
+                    <ListItem>
+                        <Link isExternal href="https://www.mallorcamagazin.com/">Mallorca Magazin</Link>
+                    </ListItem>
+                    <ListItem>
+                        <Link isExternal href="https://www.clubdelsuscriptor.com/">Club del Suscriptor</Link>
+                    </ListItem>
+                </UnorderedList>
+            </Box>
+            <Box>
+                <Heading size="md">
+                    <Link isExternal href="https://www.softline.es/web/">SoftLine Informática</Link>
+                </Heading>
+
+                <UnorderedList>
+                    <ListItem>
+                        <Link isExternal href="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales">PeritoLine App</Link>
+                    </ListItem>
+                    <ListItem>
+                        <Link isExternal href="https://www.mallorcamagazin.com/">Mallorca Magazin</Link>
+                    </ListItem>
+                    <ListItem>
+                        <Link isExternal href="https://www.clubdelsuscriptor.com/">Club del Suscriptor</Link>
+                    </ListItem>
+                </UnorderedList>
+            </Box>
+
+            <Center bg="#AFEBF6">
+            <Heading as="h3" size="xl" color="white">
+                Personal Development
+            </Heading>
+            </Center>
+
+        </SimpleGrid>
+
+
 
     </Container> 
     )
