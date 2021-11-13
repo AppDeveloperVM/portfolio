@@ -54,16 +54,16 @@ const Navbar = props => {
             >
                 <Flex align="center" mr={5}>
                     <Heading as="h1" size="lg" letterSpacing={'tighter'}>
-                        -
+                        
                     </Heading>
                 </Flex>
 
                 <Stack
-                direction={{ base:'column', md: 'row'}}
-                display={{base: 'none', md: 'flex'}}
-                width={{ base: 'full', md: 'auto' }}
-                alignItems="center"
-                mt={{base: 4, md: 0}}
+                    direction={{ base:'column', md: 'row'}}
+                    display={{ base: 'none', md: 'flex'}}
+                    width={{ base: 'full', md: 'auto' }}
+                    alignItems="center"
+                    mt={{base: 4, md: 0}}
                 >
                     <LinkItem href="/works" path={path}>
                         Works
@@ -73,7 +73,11 @@ const Navbar = props => {
                         Personal Development
                         </LinkItem>
                 </Stack>
-                <ThemeToggleButton />
+
+                <Box flex={1} align="right">
+                    <ThemeToggleButton />
+                </Box>
+                
             </Container>
         </Box>
     )
