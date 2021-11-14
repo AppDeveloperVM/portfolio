@@ -1,14 +1,15 @@
-import { Container,Box,Heading, Text,ListItem ,UnorderedList, SimpleGrid,Center, HStack, Icon,Button,IconButton,Link,  Avatar } 
+import { Container,Box,Heading, Text,ListItem ,UnorderedList, SimpleGrid,Center, Stack, HStack, Icon,Button,IconButton,Link, Avatar, useColorModeValue } 
 from "@chakra-ui/react"
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import Section from '../components/section';
+import Paragraph from '../components/paragraph';
 
 const Page = () => {
 
-
     return (
     <Container>
-        <Box borderRadius="lg" bg="teal" p={3} mb={6} align="center">
-        <Text color="white">Hello,Im a web developer</Text>
+        <Box borderRadius="lg" bg="teal.700" p={3} mb={6} align="center" mt={2}>
+        <Text fontWeight="bold" color="gray.800"> &lt;p&gt; Hello, I'm a Web developer &lt;/p&gt; </Text>
         </Box>
         
         <Box display={{ md: 'flex'}}>
@@ -21,7 +22,7 @@ const Page = () => {
    
                    
                     <p>
-                        Web Developer 
+                        Full Stack Developer 
                     </p>
                     
                 </Box>
@@ -34,80 +35,28 @@ const Page = () => {
             <Box
             as="button">
                 <Link href="https://github.com/AppDeveloperVM" isExternal>
-                    <IconButton aria-label="GitHub" icon={<BsGithub />} /> 
+                    <IconButton aria-label="GitHub" icon={<BsGithub />} bg={useColorModeValue('gray.300','#313134')} /> 
                 </Link>
             </Box>
 
             <Box
             as="button">
                 <Link href="https://www.linkedin.com/in/víctor-maree-redondo-476a91136/" isExternal>
-                    <IconButton aria-label="GitHub" icon={<BsLinkedin />} /> 
+                    <IconButton aria-label="GitHub" icon={<BsLinkedin />} bg={useColorModeValue('gray.300','#313134')} /> 
                 </Link>
             </Box>
         </HStack>
 
-        <SimpleGrid>
-        <Center bg="#AFEBF6">
-        <Heading as="h3" size="xl" color="white">
-            Work
+    <Section delay={0.1} mt={10}>
+        <Heading as="h3" variant="section-title">
+            Introduction
         </Heading>
-        </Center>
+
+        <Paragraph>
+            Paragraph
+        </Paragraph>
         
-            <Box mt="">
-                <Text>
-                Ive been working around 3 years in Web Development in two companies.
-                This ones have multiple projects and some mobile apps.
-                </Text>
-            </Box>
-        </SimpleGrid>
-
-        <SimpleGrid columns={1} spacing={10} mt="10">
- 
-            <Box>
-                <Heading as="h4" size="md">
-                <Link href="http://www.horanova.es/" isExternal>Hora Nova ( <Link isExternal href="https://www.gruposerra.com/">Grupo Serra</Link> )</Link> - <Link href="https://www.ultimahora.es/" is External>Última Hora</Link>
-                </Heading>
-
-                <UnorderedList>
-                    <ListItem>
-                        <Link isExternal href="https://www.novaproducciones.es/#myvideo">Nova Producciones</Link>
-                    </ListItem>
-                    <ListItem>
-                        <Link isExternal href="https://www.mallorcamagazin.com/">Mallorca Magazin</Link>
-                    </ListItem>
-                    <ListItem>
-                        <Link isExternal href="https://www.clubdelsuscriptor.com/">Club del Suscriptor</Link>
-                    </ListItem>
-                </UnorderedList>
-            </Box>
-            <Box>
-                <Heading size="md">
-                    <Link isExternal href="https://www.softline.es/web/">SoftLine Informática</Link>
-                </Heading>
-
-                <UnorderedList>
-                    <ListItem>
-                        <Link isExternal href="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales">PeritoLine App</Link>
-                    </ListItem>
-                    <ListItem>
-                        <Link isExternal href="https://www.mallorcamagazin.com/">Mallorca Magazin</Link>
-                    </ListItem>
-                    <ListItem>
-                        <Link isExternal href="https://www.clubdelsuscriptor.com/">Club del Suscriptor</Link>
-                    </ListItem>
-                </UnorderedList>
-            </Box>
-
-            <Center bg="#AFEBF6">
-            <Heading as="h3" size="xl" color="white">
-                Personal Development
-            </Heading>
-            </Center>
-
-        </SimpleGrid>
-
-
-
+    </Section>
     </Container> 
     )
     
