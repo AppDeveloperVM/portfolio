@@ -15,12 +15,13 @@ import {
 } from '@chakra-ui/react'
 import { HumburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button';
+import Logo from './logo';
 
 const LinkItem = ({ href, path, children }) => {
     const active = path === href
     const inactiveColor = useColorModeValue('gray200', 'whileAlpha.900')
     return (
-        <NextLink href="href">
+        <NextLink href={href}>
             <Link
             p={2}
             bg={active ? 'glassTeal' : undefined}
@@ -54,7 +55,7 @@ const Navbar = props => {
             >
                 <Flex align="center" mr={5}>
                     <Heading as="h1" size="lg" letterSpacing={'tighter'}>
-                        
+                        <Logo/>
                     </Heading>
                 </Flex>
 
