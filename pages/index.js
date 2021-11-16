@@ -12,7 +12,7 @@ const Page = () => {
         <Text fontWeight="bold" color="gray.800"> &lt;p&gt; Hello, I'm a Web developer &lt;/p&gt; </Text>
         </Box>
         
-        <Box display={{ md: 'flex'}}>
+        <Box display={{ md: 'flex'}} >
             <SimpleGrid columns={2} spacing={10}>
                 <Box flexGrow={1}>
                 
@@ -31,7 +31,7 @@ const Page = () => {
                 </Box>
             </SimpleGrid>
         </Box>
-        <HStack>
+        <HStack mb={10}>
             <Box
             as="button">
                 <Link href="https://github.com/AppDeveloperVM" isExternal>
