@@ -13,7 +13,7 @@ import {
     IconButton,
     useColorModeValue
 } from '@chakra-ui/react'
-//import { HumburgerIcon } from '@chakra-ui/icons'
+import {HamburgerIcon} from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button';
 import Logo from './logo';
 
@@ -76,6 +76,28 @@ const Navbar = props => {
                 </Stack>
 
                 <Box flex={1} align="right">
+                    <Box ml={2} display={{base: 'inline-block', md:'none'}}>
+                        <Menu>
+                            <MenuButton 
+                            as={IconButton} 
+                            icon={<HamburgerIcon />}
+                            variant="outline"
+                            aria-label="Options"
+                            />
+                        
+                        <MenuList>
+                            <NextLink href="/" passHref>
+                                <MenuItem as={Link}>About</MenuItem>
+                            </NextLink>
+                            <NextLink href="/works" passHref>
+                                <MenuItem as={Link}>Works</MenuItem>
+                            </NextLink>
+                            <NextLink href="/develop" passHref>
+                                <MenuItem as={Link}>Development</MenuItem>
+                            </NextLink>
+                        </MenuList>
+                        </Menu>
+                    </Box>
                     <ThemeToggleButton />
                 </Box>
                 
