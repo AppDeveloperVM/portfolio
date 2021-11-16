@@ -3,7 +3,6 @@ from "@chakra-ui/react"
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import Section from '../components/section';
 
-
 const Works = () => {
 
     return (
@@ -16,7 +15,6 @@ const Works = () => {
             Works
         </Heading>
        
-        
             <Box mt="">
                 <Text>
                 Ive been working around 3 years in Web Development in two companies.
@@ -46,10 +44,10 @@ const Works = () => {
 
                 <Stack direction={["column", "row"]} spacing="24px" mt="10">
                     <Box w="300px" h="100px"  bg="gray.500" flexBasis={{ base: "50%", xs: "100%" }}>
-                        s
+                        
                     </Box>
-                    <Box w="300px" h="100px" bg="gray.500" flexBasis={{ base: "50%", md: "100%" }}>
-                       s 
+                    <Box w="300px" h="100px" bg="gray.500" flexBasis={{ base: "50%", xs: "100%" }}>
+                       
                     </Box>
                 </Stack>
             </Box>
@@ -71,17 +69,10 @@ const Works = () => {
                 </UnorderedList>
             </Box>
 
-            
-            <Heading as="h3" size="md" color="white" textDecoration="underline">
-                Personal Development
-            </Heading>
-            
-
         </SimpleGrid>
 
         </Section>
     </Container>)
-    
 }
 
 export default Works

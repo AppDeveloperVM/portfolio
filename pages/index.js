@@ -19,12 +19,10 @@ const Page = () => {
                     <Heading as="h2" variant="page-title">
                         Víc Maree R
                     </Heading>
-   
-                   
                     <p>
                         Full Stack Developer 
-                    </p>
-                    
+                    </p>    
+                             
                 </Box>
                 <Box flexGrow={1}>
                     <Avatar direction="right" mr={10} size="xl" name="Víc M" src="https://bit.ly/dan-abramov" />
