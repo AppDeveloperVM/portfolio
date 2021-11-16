@@ -13,7 +13,7 @@ import {
     IconButton,
     useColorModeValue
 } from '@chakra-ui/react'
-import { HumburgerIcon } from '@chakra-ui/icons'
+//import { HumburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button';
 import Logo from './logo';
 
