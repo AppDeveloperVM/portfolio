@@ -1,6 +1,7 @@
 import { Container,Box,Heading, Text,ListItem ,UnorderedList, SimpleGrid,Center, Stack, HStack, Icon,Button,IconButton,Link, Avatar, useColorModeValue } 
 from "@chakra-ui/react"
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import InfoJobsLogo from '../components/infojobs-icon';
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 
@@ -41,6 +42,12 @@ const Page = () => {
             as="button">
                 <Link href="https://www.linkedin.com/in/víctor-maree-redondo-476a91136/" isExternal>
                     <IconButton aria-label="GitHub" icon={<BsLinkedin />} bg={useColorModeValue('gray.300','#313134')} /> 
+                </Link>
+            </Box>
+            <Box
+            as="button">
+                <Link href="https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=16280012787186252343" isExternal>
+                    <IconButton aria-label="InfoJobs" icon={<InfoJobsLogo />} bg={useColorModeValue('gray.300','#313134')} /> 
                 </Link>
             </Box>
         </HStack>
