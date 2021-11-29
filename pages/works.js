@@ -1,4 +1,4 @@
-import { Container,Box,Heading, Text,ListItem ,UnorderedList, SimpleGrid,Center, Stack, HStack, Icon,Button,IconButton,Link,  Avatar } 
+import { Container,Box,Heading, Text,ListItem ,UnorderedList, SimpleGrid,Center, Stack, HStack, Icon,Button,IconButton,Link,  Avatar, Image } 
 from "@chakra-ui/react"
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import Section from '../components/section';
@@ -17,8 +17,10 @@ const Works = () => {
        
             <Box mt="">
                 <Text>
-                Ive been working around 3 years in Web Development in two companies.
-                This ones have multiple projects and some mobile apps.
+                Cuento con varios años de experiencia en desarrollo de páginas y apps web en diferentes empresas.
+                </Text>
+                <Text>
+                Mi formación se basa tanto en el título de técnico de grado superior, en diversos cursos privados y de igual forma mi propia formación autodidacta.
                 </Text>
             </Box>
         </SimpleGrid>
@@ -44,7 +46,7 @@ const Works = () => {
 
                 <Stack direction={["column", "row"]} spacing="24px" mt="10">
                     <Box w="300px" h="100px"  bg="gray.500" flexBasis={{ base: "50%", xs: "100%" }}>
-                        
+                        <Image src="/images/novaProducciones.png" />
                     </Box>
                     <Box w="300px" h="100px" bg="gray.500" flexBasis={{ base: "50%", xs: "100%" }}>
                        
@@ -60,9 +62,7 @@ const Works = () => {
                     <ListItem>
                         <Link isExternal href="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales">PeritoLine App</Link>
                     </ListItem>
-                    <ListItem>
-                        <Link isExternal href="https://www.mallorcamagazin.com/">Mallorca Magazin</Link>
-                    </ListItem>
+                
                     <ListItem>
                         <Link isExternal href="https://www.clubdelsuscriptor.com/">Club del Suscriptor</Link>
                     </ListItem>
