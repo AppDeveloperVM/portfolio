@@ -45,11 +45,11 @@ const Works = () => {
                 </UnorderedList>
 
                 <Stack direction={["column", "row"]} spacing="24px" mt="10">
-                    <Box w="300px" h="100px"  bg="gray.500" flexBasis={{ base: "50%", xs: "100%" }}>
-                        <Image src="/images/novaProducciones.png" />
+                    <Box w="300px" h="400px"  bg="gray.500" flexBasis={{ base: "50%", xs: "100%" }}>
+                        <Image src="/images/novaProducciones.png" objectFit='cover' boxSize='400px' />
                     </Box>
-                    <Box w="300px" h="100px" bg="gray.500" flexBasis={{ base: "50%", xs: "100%" }}>
-                       
+                    <Box w="300px" h="400px"  bg="gray.500" flexBasis={{ base: "50%", xs: "100%" }}>
+                        <Image src="/images/novaProducciones.png" objectFit='cover' boxSize='400px' />
                     </Box>
                 </Stack>
             </Box>
