@@ -13,6 +13,7 @@
   "author": "Victor Maree <vicmr1994@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@chakra-ui/icons": "^1.1.1",
     "@chakra-ui/react": "^1.6.12",
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
@@ -22,6 +23,7 @@
     "framer-motion": "^4.1.17",
     "ionicons": "^6.0.0",
     "next": "^12.0.3",
+    "puppeteer-core": "^12.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
