@@ -12,7 +12,7 @@ const Works = () => {
         <SimpleGrid mt="10" spacing={5}>
         
         <Heading as="h3" variant="section-title" size="md" textDecoration="underline">
-            Works
+            Trabajos
         </Heading>
        
             <Box mt="">
