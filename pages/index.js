@@ -4,14 +4,18 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import InfoJobsLogo from '../components/infojobs-icon';
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
+import CodeWriting from "../components/code-writing";
+
 
 const Page = () => {
 
     return (
     <Container>
         <Box borderRadius="lg" bg="teal.700" p={3} mb={6} align="center" mt={2}>
-        <Text fontWeight="bold" color="gray.800"> &lt;p&gt; Hello, I'm a Web developer &lt;/p&gt; </Text>
+        <Text id="txt" fontWeight="bold" color="gray.800"> <CodeWriting/>  </Text>
         </Box>
+
+        
         
         <Box display={{ md: 'flex'}} >
             <SimpleGrid columns={2} spacing={10}>
@@ -32,20 +36,20 @@ const Page = () => {
         </Box>
         <HStack mb={10}>
             <Box
-            as="button">
+            >
                 <Link href="https://github.com/AppDeveloperVM" isExternal>
                     <IconButton aria-label="GitHub" icon={<BsGithub />} bg={useColorModeValue('gray.300','#313134')} /> 
                 </Link>
             </Box>
 
             <Box
-            as="button">
+            >
                 <Link href="https://www.linkedin.com/in/víctor-maree-redondo-476a91136/" isExternal>
                     <IconButton aria-label="GitHub" icon={<BsLinkedin />} bg={useColorModeValue('gray.300','#313134')} /> 
                 </Link>
             </Box>
             <Box
-            as="button">
+            >
                 <Link href="https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=16280012787186252343" isExternal>
                     <IconButton aria-label="InfoJobs" icon={<InfoJobsLogo />} bg={useColorModeValue('gray.300','#313134')} /> 
                 </Link>
@@ -58,7 +62,7 @@ const Page = () => {
         </Heading>
 
         <Paragraph>
-            Paragraph
+            
         </Paragraph>
         
     </Section>
@@ -66,5 +70,7 @@ const Page = () => {
     )
     
 }
+
+
 
 export default Page
