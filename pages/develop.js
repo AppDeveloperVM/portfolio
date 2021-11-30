@@ -11,8 +11,15 @@ const Develop = () => {
         <SimpleGrid mt="10" spacing={5}>
         
         <Heading as="h3" variant="section-title" size="md" textDecoration="underline">
-            Development
+            Desarrollo
         </Heading>
+
+        <Stack direction={["column", "row"]} spacing="24px" mt="10">
+            <Box w="250px" h="400px"  bg="gray.500" flexBasis={{ base: "50%", xs: "100%" }}>
+            </Box>
+            <Box w="250px" h="400px"  bg="gray.500" flexBasis={{ base: "50%", xs: "100%" }}>
+            </Box>
+        </Stack>
 
         </SimpleGrid>
         </Section>
