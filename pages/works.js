@@ -33,23 +33,24 @@ const Works = () => {
                 </Heading>
 
                 <UnorderedList>
-                    <ListItem>
-                        <Link isExternal href="https://www.novaproducciones.es/#myvideo">Nova Producciones</Link>
-                    </ListItem>
-                    <ListItem>
-                        <Link isExternal href="https://www.mallorcamagazin.com/">Mallorca Magazin</Link>
-                    </ListItem>
-                    <ListItem>
-                        <Link isExternal href="https://www.clubdelsuscriptor.com/">Club del Suscriptor</Link>
-                    </ListItem>
                 </UnorderedList>
 
-                <Stack direction={["column", "row"]} spacing="24px" mt="10">
-                    <Box w="300px" h="400px"  bg="gray.500" flexBasis={{ base: "50%", xs: "100%" }}>
-                        <Image src="/images/novaProducciones.png" objectFit='cover' boxSize='400px' />
+                <Stack variant="works-stack" direction={["column", "row"]} flex={1} spacing="24px" mt="10">
+                    <Box  variant="works-box" w="auto" h="auto"  bg="gray.500" flexBasis={{ base: "50%", xs: "100%" }}>
+                    <Link isExternal href="https://www.novaproducciones.es/#myvideo">Nova Prod</Link>
+                        <Image src="https://via.placeholder.com/500x400.png/09f/fff" objectFit='contain' boxSize='auto' />
                     </Box>
-                    <Box w="300px" h="400px"  bg="gray.500" flexBasis={{ base: "50%", xs: "100%" }}>
-                        <Image src="/images/novaProducciones.png" objectFit='cover' boxSize='400px' />
+                    <Box variant="works-box" w="auto" h="auto"  bg="gray.500" flexBasis={{ base: "50%", xs: "100%" }}>
+                    <Link isExternal href="https://www.mallorcamagazin.com/">Mallorca Magazin</Link>
+                        <Image src="https://via.placeholder.com/500x400.png/09f/fff" objectFit='cover' boxSize='auto' />
+                    </Box>
+                    
+                </Stack>
+                <Stack variant="works-stack-one" direction={["column", "row"]} flex={1} spacing="24px" mt="10">
+                    
+                    <Box variant="works-box" w="auto" h="auto"  bg="gray.500" flexBasis={{ base: "50%", xs: "50%" }}>
+                    <Link isExternal href="https://www.clubdelsuscriptor.com/">Club del Suscrip</Link>
+                        <Image src="https://via.placeholder.com/500x400.png/09f/fff" objectFit='cover' boxSize='auto' />
                     </Box>
                 </Stack>
             </Box>
@@ -58,15 +59,16 @@ const Works = () => {
                     <Link isExternal href="https://www.softline.es/web/">SoftLine Informática</Link>
                 </Heading>
 
-                <UnorderedList>
-                    <ListItem>
-                        <Link isExternal href="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales">PeritoLine App</Link>
-                    </ListItem>
-                
-                    <ListItem>
-                        <Link isExternal href="https://www.clubdelsuscriptor.com/">Club del Suscriptor</Link>
-                    </ListItem>
-                </UnorderedList>
+
+                <Stack variant="works-stack-one" direction={["column", "row"]} flex={1} spacing="24px" mt="10">
+                    <Box  variant="works-box" w={{ base: "50%", xs: "100%" }} h="auto"  bg="gray.500" flexBasis={{base: "50%", xs: "100%"}}>
+                    <Link isExternal href="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales">PeritoLine App</Link>
+                        <Image src="https://via.placeholder.com/500x400.png/09f/fff" objectFit='contain' boxSize='auto' />
+                    </Box>
+                    
+                    
+                </Stack>
+
             </Box>
 
         </SimpleGrid>
