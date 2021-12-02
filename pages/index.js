@@ -10,19 +10,19 @@ import CodeWriting from "../components/code-writing";
 const Page = () => {
 
     return (
-    <Container>
+    <Container maxW='container.xl'>
         <Box borderRadius="lg" bg="teal.700" p={3} mb={6} align="center" mt={2}>
         <Text id="txt" fontWeight="bold" color="gray.800"> <CodeWriting/>  </Text>
         </Box>
 
         
         
-        <Box display={{ md: 'flex'}} >
+        <Box  >
             <SimpleGrid columns={2} spacing={10}>
                 <Box flexGrow={1}>
                 
                     <Heading as="h2" variant="page-title">
-                        Víc Maree R
+                        Víc Maree R.
                     </Heading>
                     <p>
                         Full Stack Developer 
@@ -34,7 +34,7 @@ const Page = () => {
                 </Box>
             </SimpleGrid>
         </Box>
-        <HStack mb={10}>
+        <HStack mb={10} columns={1,2}>
             <Box
             >
                 <Link href="https://github.com/AppDeveloperVM" isExternal>
