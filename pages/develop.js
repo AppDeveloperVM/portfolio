@@ -5,13 +5,13 @@ import Section from '../components/section';
 const Develop = () => {
 
     return (
-    <Container>
+    <Container maxW='container.xl'>
         <Section delay={0.1}>
         
         <SimpleGrid mt="10" spacing={5}>
         
         <Heading as="h3" variant="section-title" size="md" textDecoration="underline">
-            Desarrollo
+            Mi Desarrollo
         </Heading>
 
         <Stack direction={["column", "row"]} spacing="24px" mt="10">

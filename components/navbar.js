@@ -87,13 +87,13 @@ const Navbar = props => {
                         
                             <MenuList>
                                 <NextLink href="/" passHref>
-                                    <MenuItem as={Link}>About</MenuItem>
+                                    <MenuItem as={Link}>Sobre mi</MenuItem>
                                 </NextLink>
                                 <NextLink href="/works" passHref>
-                                    <MenuItem as={Link}>Works</MenuItem>
+                                    <MenuItem as={Link}>Empleo</MenuItem>
                                 </NextLink>
                                 <NextLink href="/develop" passHref>
-                                    <MenuItem as={Link}>Development</MenuItem>
+                                    <MenuItem as={Link}>Mi Desarrollo</MenuItem>
                                 </NextLink>
                             </MenuList>
                         </Menu>
