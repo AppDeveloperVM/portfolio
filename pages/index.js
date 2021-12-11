@@ -30,7 +30,7 @@ const Page = () => {
                              
                 </Box>
                 <Box flexGrow={1}>
-                    <Avatar direction="right" mr={10} size="xl" name="Víc M" src="https://bit.ly/dan-abramov" />
+                    <Avatar direction="right" mr={10} size="xl" name="Víc M" src="/images/profile_image.jpg" />
                 </Box>
             </SimpleGrid>
         </Box>
@@ -58,7 +58,7 @@ const Page = () => {
 
     <Section delay={0.1} mt={10}>
         <Heading as="h3" variant="section-title">
-            Introduction
+            Sobre mi
         </Heading>
 
         <Paragraph>
