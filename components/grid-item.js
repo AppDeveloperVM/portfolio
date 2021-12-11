@@ -4,15 +4,6 @@ import NextLink from 'next/link'
 import Image from 'next/image'
 
 
-var badges_list = {
-    list: function(badges) {
-        ["white", "white", "primary.700", "primary.700"].forEach(element => {
-        <Badge variant='outline' colorScheme='green' fontSize='0.7em' fontWeight='normal'>{element}</Badge> 
-       });
-    }
- };   
-
-
 export const GridItem = ({ children, href, title, thumbnail }) => (
     <Box w="100%" align="center">
         <LinkBox cursor="pointer">
@@ -42,11 +33,15 @@ export const WorkGridItem = ({ children, id, title, thumbnail, url, badges  }) =
                     alt={title} className="grid-item-thumbnail" 
                     placeholder="blur" blurDataURL="/500x400.png/09f/fff" width="600px" height="400px" objectFit='cover'
                 />
+                
                 <LinkOverlay href={url}>
                     <Text mt={2} fontSize={20} >
                         {title}
                     </Text>
-                    { badges_list.list(badges) }
+                    { badges.map((badge) => (
+                        <><Badge>{badge}</Badge> </>
+                  ))
+                }
                 </LinkOverlay>
                 
                 <Text fontSize={14} >{children}</Text>
