@@ -15,7 +15,7 @@ const Develop = () => {
         </Heading>
         <SimpleGrid mt="10" spacing={5} columns={[1]}>
         
-            <WorkGridItem  id="peritoline" title="Cosplay Planning App" url="https://github.com/AppDeveloperVM/cosplay-planning-app"  badges={["white", "white", "primary.700", "primary.700"]} >
+            <WorkGridItem  id="peritoline" title="Cosplay Planning App" url="" thumbnail="/images/cosplayplanningapp_1.jpg" thumbnail_type='fill' badges={["angular","ionic","js"]} >
                 App para la planificación de eventos enfocados al cosplay
             </WorkGridItem>
 
