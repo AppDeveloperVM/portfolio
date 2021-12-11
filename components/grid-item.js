@@ -38,8 +38,10 @@ export const WorkGridItem = ({ children, id, title, thumbnail, url, badges  }) =
     <Box w="100%" align="center">
         <NextLink href={url}>
             <LinkBox cursor="pointer">
-                <Image src={thumbnail}  alt={title} className="grid-item-thumbnail" 
-                placeholder="blur" blurDataURL="/500x400.png/09f/fff" width="600px" height="400px" objectFit='cover'/>
+                <Image src={ thumbnail!=null ?  thumbnail  : '/images/500x400.png' }
+                    alt={title} className="grid-item-thumbnail" 
+                    placeholder="blur" blurDataURL="/500x400.png/09f/fff" width="600px" height="400px" objectFit='cover'
+                />
                 <LinkOverlay href={url}>
                     <Text mt={2} fontSize={20} >
                         {title}
