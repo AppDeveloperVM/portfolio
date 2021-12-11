@@ -33,7 +33,7 @@ const Works = () => {
                         <Link isExternal href="https://www.softline.es/web/">SoftLine Informática</Link>
                     </Heading>
 
-                    <WorkGridItem  id="peritoline" title="PeritoLine" thumbnail="/images/Peritoline.png" url="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales"  badges={["js"]} >
+                    <WorkGridItem  id="peritoline" title="PeritoLine" thumbnail="/images/Peritoline.png" url="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales"  badges={["js","php","symfony"]} >
                         App para la gestión de peritajes
                     </WorkGridItem>
 
@@ -45,11 +45,11 @@ const Works = () => {
                     </Heading>
             <SimpleGrid  columns={[1,1,2]}  gap={6} spacing={10}   >
              
-                <WorkGridItem  id="clubdelsuscriptor" title="Club del suscriptor" thumbnail="/images/Clubdelsuscriptor.png" url="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales" badges={["php", "css", "symfony", "js"]} >
+                <WorkGridItem  id="clubdelsuscriptor" title="Club del suscriptor" thumbnail="/images/Clubdelsuscriptor.png" url="https://www.clubdelsuscriptor.com" badges={[]} >
                     Web dedicada a los eventos de un grupo selecto
                 </WorkGridItem>
 
-                <WorkGridItem  id="novaproducciones" title="Nova Producciones" thumbnail="/images/novaProducciones.png" url="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales"  badges={["php", "css", "symfony", "js"]} >
+                <WorkGridItem  id="novaproducciones" title="Nova Producciones" thumbnail="/images/novaProducciones.png" url="https://www.novaproducciones.es" >
                     Web dedicada a los eventos de un grupo selecto
                 </WorkGridItem>
 
