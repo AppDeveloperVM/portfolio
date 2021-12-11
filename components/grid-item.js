@@ -34,14 +34,16 @@ export const WorkGridItem = ({ children, id, title, thumbnail, url, badges  }) =
                     placeholder="blur" blurDataURL="/500x400.png/09f/fff" width="600px" height="400px" objectFit='cover'
                 />
                 
-                <LinkOverlay href={url}>
+                <LinkOverlay href={url} isExternal>
                     <Text mt={2} fontSize={20} >
                         {title}
                     </Text>
-                    { badges.map((badge) => (
+                    { badges!= null ? 
+                     badges.map((badge) => (
                         <><Badge>{badge}</Badge> </>
-                  ))
-                }
+                     )) 
+                     : ""
+                    }
                 </LinkOverlay>
                 
                 <Text fontSize={14} >{children}</Text>
