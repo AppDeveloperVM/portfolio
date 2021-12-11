@@ -1,5 +1,7 @@
 import { Container,Box,Heading, Text,ListItem ,UnorderedList, SimpleGrid,Center, Stack, HStack, Icon,Button,IconButton,Link, Avatar, useColorModeValue } 
 from "@chakra-ui/react"
+import NextLink from 'next/link'
+import { EmailIcon } from '@chakra-ui/icons'
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import InfoJobsLogo from '../components/infojobs-icon';
 import Section from '../components/section';
@@ -21,7 +23,7 @@ const Page = () => {
             <SimpleGrid columns={2} spacing={10}>
                 <Box flexGrow={1}>
                 
-                    <Heading as="h2" variant="page-title">
+                    <Heading as="h2" variant="page-title" letter-spacing="15px">
                         Víc Maree R.
                     </Heading>
                     <p>
@@ -62,8 +64,15 @@ const Page = () => {
         </Heading>
 
         <Paragraph>
-            
+            Es la era de la tecnología e Internet, y yo puedo ayudarte a impulsar tu proyecto con una plataforma web con la que promocionarte !
         </Paragraph>
+
+        <NextLink href='mailto:vicmr1994@gmail.com?subject=Propuesta%20de%20desarrollo%20web&body=Estoy%20interesado%20en%20pedir%20presupuesto%20para%20un%20proyecto%20web.'>
+            <Button colorScheme='teal' size='sm' mt="5">
+            Pongámonos en Contacto &nbsp;<EmailIcon></EmailIcon>
+            </Button>
+        </NextLink>
+        
         
     </Section>
     </Container> 
