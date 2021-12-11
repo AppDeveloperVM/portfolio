@@ -25,13 +25,13 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
     </Box>
 )
 
-export const WorkGridItem = ({ children, id, title, thumbnail, url, badges  }) => (
+export const WorkGridItem = ({ children, id, title, thumbnail,thumbnail_type, url, badges  }) => (
     <Box w="100%" align="center">
         <NextLink href={url}>
             <LinkBox cursor="pointer">
-                <Image src={ thumbnail!=null ?  thumbnail  : '/images/500x400.png' }
+                <Image src={ thumbnail!=null ?  thumbnail : '/images/500x400.png' }
                     alt={title} className="grid-item-thumbnail" 
-                    placeholder="blur" blurDataURL="/500x400.png/09f/fff" width="600px" height="400px" objectFit='cover'
+                    placeholder="blur" blurDataURL="/500x400.png/09f/fff" width="600px" height="400px" objectFit={ thumbnail_type!=null ? thumbnail_type : 'cover'}
                 />
                 
                 <LinkOverlay href={url} isExternal>
