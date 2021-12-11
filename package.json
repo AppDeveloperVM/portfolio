@@ -22,7 +22,7 @@
     "@fontsource/signika-negative": "^4.5.0",
     "framer-motion": "^4.1.17",
     "ionicons": "^6.0.0",
-    "next": "^12.0.3",
+    "next": ">=12.0.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
