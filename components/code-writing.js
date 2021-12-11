@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 
 const line = "Hello, I'm a full-stack Web developer"
 const sentence = {
+
     before: { 
         transition: {
             delay: 0.5,
@@ -20,6 +21,7 @@ const letter = {
     before: { 
         opacity: 0, 
         y: 50,
+        padding:2,
         transition: {
             type: 'spring',
             damping: 12,
@@ -29,6 +31,7 @@ const letter = {
     after: {
         opacity: 1,
         y: 0,
+        padding:2,
         transition: {
             type: 'spring',
             damping: 12,
