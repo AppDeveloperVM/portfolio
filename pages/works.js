@@ -50,7 +50,7 @@ const Works = () => {
                         Web dedicada a los eventos de un grupo selecto
                     </WorkGridItem>
 
-                    <WorkGridItem  id="novaproducciones" title="Nova Producciones" thumbnail="/images/novaProduciones.png" url="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales"  badges={["white", "white", "primary.700", "primary.700"]} >
+                    <WorkGridItem  id="novaproducciones" title="Nova Producciones" thumbnail="/images/novaProducciones.png" url="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales"  badges={["white", "white", "primary.700", "primary.700"]} >
                         Web dedicada a los eventos de un grupo selecto
                     </WorkGridItem>
 
