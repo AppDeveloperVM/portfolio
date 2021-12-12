@@ -45,7 +45,7 @@ const Works = () => {
                     </Heading>
             <SimpleGrid  columns={[1,1,2]}  gap={6} spacing={10}   >
              
-                <WorkGridItem  id="clubdelsuscriptor" title="Club del suscriptor" thumbnail="/images/Clubdelsuscriptor.png" url="https://www.clubdelsuscriptor.com" badges={[]} >
+                <WorkGridItem  id="clubdelsuscriptor" title="Club del suscriptor" thumbnail="/images/Clubdelsuscriptor_.png" url="https://www.clubdelsuscriptor.com" badges={[]} >
                     Web dedicada a los eventos de un grupo selecto
                 </WorkGridItem>
 
