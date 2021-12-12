@@ -13,7 +13,7 @@ const Page = () => {
 
     return (
     <Container maxW='container.xl'>
-        <Box borderRadius="lg" bg="teal.700" p={3} mb={6} align="center" mt={2}>
+        <Box borderRadius="lg" bg="teal.600" p={3} mb={6} align="center" mt={2}>
         <Text id="txt" fontWeight="bold" color="gray.800"> <CodeWriting/>  </Text>
         </Box>
 
@@ -23,7 +23,7 @@ const Page = () => {
             <SimpleGrid columns={2} spacing={10}>
                 <Box flexGrow={1}>
                 
-                    <Heading as="h2" variant="page-title" letter-spacing="15px">
+                    <Heading as="h2" variant="page-title" letterSpacing="5px">
                         Víc Maree R.
                     </Heading>
                     <p>
