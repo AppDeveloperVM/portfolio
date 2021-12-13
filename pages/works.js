@@ -50,7 +50,7 @@ const Works = () => {
                 </WorkGridItem>
 
                 <WorkGridItem  id="novaproducciones" title="Nova Producciones" thumbnail="/images/novaProducciones.png" url="https://www.novaproducciones.es" >
-                    Web dedicada a los eventos de un grupo selecto
+                    División de audio visuales del Grupo Serra
                 </WorkGridItem>
 
             </SimpleGrid>
