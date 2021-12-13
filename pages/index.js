@@ -36,7 +36,7 @@ const Page = () => {
                 </Box>
             </SimpleGrid>
         </Box>
-        <HStack mb={10} columns={1,2}>
+        <HStack mb={10} columns={1,2} mt={3}>
             <Box
             >
                 <Link href="https://github.com/AppDeveloperVM" isExternal>
