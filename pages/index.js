@@ -63,8 +63,9 @@ const Page = () => {
             Sobre mi
         </Heading>
 
-        <Paragraph>
-            Es la era de la tecnología e Internet, y yo puedo ayudarte a impulsar tu proyecto con una plataforma web con la que promocionarte!
+        <Paragraph fontSize="lg">
+            Es la era de la tecnología e Internet, 
+            y yo puedo ayudarte a impulsar tu proyecto con una plataforma web con la que promocionarte!
         </Paragraph>
 
         <NextLink href='mailto:vicmr1994@gmail.com?subject=Propuesta%20de%20desarrollo%20web&body=Estoy%20interesado%20en%20pedir%20presupuesto%20para%20un%20proyecto%20web.'>
