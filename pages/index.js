@@ -63,8 +63,11 @@ const Page = () => {
             Sobre mi
         </Heading>
 
-        <Heading as="h2" size="lg">
-            ¿Renovar la imagen de tu empresa? ¿Desarrollar una nueva página ? Yo puedo ayudarte!
+        <Heading as="h2" size="md">
+            ¿Renovar la imagen de tu empresa? ¿Desarrollar una nueva página web?
+        </Heading>
+        <Heading as="h2" size="lg" mt="3">
+            Yo puedo ayudarte!
         </Heading>
 
         <NextLink href='mailto:vicmr1994@gmail.com?subject=Propuesta%20de%20desarrollo%20web&body=Estoy%20interesado%20en%20pedir%20presupuesto%20para%20un%20proyecto%20web.'>
