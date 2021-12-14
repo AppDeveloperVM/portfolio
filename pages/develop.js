@@ -1,11 +1,13 @@
 import { Container,Box,Heading, Text,ListItem ,UnorderedList, SimpleGrid,Center, Stack, HStack, Icon,Button,IconButton,Link,  Avatar } 
 from "@chakra-ui/react"
+import Layout from '../components/layouts/article'
 import Section from '../components/section';
 import { WorkGridItem, GridItem } from "../components/grid-item";
 
 const Develop = () => {
 
     return (
+    <Layout>
     <Container maxW='container.xl'>
         <Section delay={0.1}>
         
@@ -22,6 +24,7 @@ const Develop = () => {
         </SimpleGrid>
         </Section>
     </Container>
+    </Layout>
     )
 }
 

@@ -1,5 +1,6 @@
 import { Container,Box,Heading, Text,ListItem ,UnorderedList, SimpleGrid,Center, Stack, HStack, Icon,Button,IconButton,Link,  Avatar, Image } 
 from "@chakra-ui/react"
+import Layout from '../components/layouts/article'
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import Section from '../components/section';
 import { WorkGridItem, GridItem } from "../components/grid-item";
@@ -7,6 +8,7 @@ import { WorkGridItem, GridItem } from "../components/grid-item";
 const Works = () => {
 
     return (
+    <Layout>
     <Container maxW='container.xl'>
         <Section delay={0.1}>
         
@@ -56,7 +58,9 @@ const Works = () => {
             </SimpleGrid>
 
         </Section>
-    </Container>)
+    </Container>
+    </Layout>
+    )
 }
 
 export default Works

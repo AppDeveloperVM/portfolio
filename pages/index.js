@@ -7,11 +7,13 @@ import InfoJobsLogo from '../components/infojobs-icon';
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import CodeWriting from "../components/code-writing";
+import Layout from "../components/layouts/article";
 
 
 const Page = () => {
 
     return (
+    <Layout>
     <Container maxW='container.xl'>
         <Box borderRadius="lg" bg="teal.600" p={3} mb={6} align="center" mt={2}>
         <Text id="txt" fontWeight="bold" color="gray.800"> <CodeWriting/>  </Text>
@@ -79,6 +81,7 @@ const Page = () => {
         
     </Section>
     </Container> 
+    </Layout>
     )
     
 }
