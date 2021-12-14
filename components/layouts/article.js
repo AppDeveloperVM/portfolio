@@ -15,7 +15,8 @@ const Layout = ({ children, title}) => (
         {title && ( <Head>
         <title>
             {title} - Víc Maree R.</title>
-        </Head>)}
+        </Head>)
+        }
         { children }
         <GridItemStyle />
         </>
