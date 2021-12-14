@@ -6,7 +6,7 @@
             "error",
             {
                 "argsIgnorePattern": "^_",
-                "vargsIgnorePattern": "^_"
+                "varsIgnorePattern": "^_"
             }
         ]
     }
