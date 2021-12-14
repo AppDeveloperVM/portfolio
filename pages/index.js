@@ -1,11 +1,10 @@
-import { Container,Box,Heading, Text,ListItem ,UnorderedList, SimpleGrid,Center, Stack, HStack, Icon,Button,IconButton,Link, Avatar, useColorModeValue } 
+import { Container,Box,Heading, Text, SimpleGrid,HStack, Button,IconButton,Link, Avatar, useColorModeValue } 
 from "@chakra-ui/react"
 import NextLink from 'next/link'
 import { EmailIcon } from '@chakra-ui/icons'
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import InfoJobsLogo from '../components/infojobs-icon';
 import Section from '../components/section';
-import Paragraph from '../components/paragraph';
 import CodeWriting from "../components/code-writing";
 import Layout from "../components/layouts/article";
 

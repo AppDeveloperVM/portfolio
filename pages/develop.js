@@ -1,8 +1,8 @@
-import { Container,Box,Heading, Text,ListItem ,UnorderedList, SimpleGrid,Center, Stack, HStack, Icon,Button,IconButton,Link,  Avatar } 
+import { Container,Heading, SimpleGrid } 
 from "@chakra-ui/react"
 import Layout from '../components/layouts/article'
 import Section from '../components/section';
-import { WorkGridItem, GridItem } from "../components/grid-item";
+import { WorkGridItem } from "../components/grid-item";
 
 const Develop = () => {
 
