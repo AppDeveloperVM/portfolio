@@ -7,13 +7,14 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
     return (
-        <Layout title="Inkdrop">
+        <Layout title="Cosplay Planning App">
         <Container>
         <Title>
         CosPlanningApp <Badge>2021</Badge>
         </Title>
         <P>
-            Cos Planning App
+            Aplicación enfocada en la gestión de eventos relacionados con el Cosplay,
+            tanto en el desarrollo del personaje, como reuniones con otros cosplayers y planificación de sesiones de fotos.
         </P>
         <List ml={4} my={4}>
             <ListItem>
