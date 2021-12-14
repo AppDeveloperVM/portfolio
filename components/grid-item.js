@@ -14,7 +14,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
             className="grid-item-thumbnail"
             placeholder="blur"
             loading="lazy" 
-            blurDataURL="/500x400.png/09f/fff"
+            blurDataURL="/images/500x400.png"
             width="600px" height="400px"
             />
             <LinkOverlay href={href} target="_blank">
@@ -31,7 +31,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail,thumbnail_type, ur
             <LinkBox cursor="pointer">
                 <Image src={ thumbnail!=null ?  thumbnail : '/images/500x400.png' }
                     alt={title} className="grid-item-thumbnail" 
-                    placeholder="blur" blurDataURL="/500x400.png/09f/fff" width="600px" height="400px" objectFit={ thumbnail_type!=null ? thumbnail_type : 'cover'}
+                    placeholder="blur" blurDataURL="/images/500x400.png" width="600px" height="400px" objectFit={ thumbnail_type!=null ? thumbnail_type : 'cover'}
                 />
                 
                 <LinkOverlay href={url} isExternal>
