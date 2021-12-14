@@ -7,8 +7,8 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
     return (
-        <Layout title="Cosplay Planning App">
-        <Container>
+        <Layout title="Cosplay Planning App" >
+        <Container mt={4}>
         <Title>
         CosPlanningApp <Badge>2021</Badge>
         </Title>
