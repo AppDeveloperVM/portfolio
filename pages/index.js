@@ -38,22 +38,19 @@ const Page = () => {
             </SimpleGrid>
         </Box>
         <HStack mb={10} columns={1,2} mt={3}>
-            <Box
-            >
-                <Link href="https://github.com/AppDeveloperVM" isExternal>
+            <Box>
+                <Link href="https://github.com/AppDeveloperVM" variant="concealed" isExternal>
                     <IconButton aria-label="GitHub" icon={<BsGithub />} bg={useColorModeValue('gray.300','#313134')} /> 
                 </Link>
             </Box>
 
-            <Box
-            >
-                <Link href="https://www.linkedin.com/in/víctor-maree-redondo-476a91136/" isExternal>
+            <Box>
+                <Link href="https://www.linkedin.com/in/víctor-maree-redondo-476a91136/" variant="concealed" isExternal>
                     <IconButton aria-label="GitHub" icon={<BsLinkedin />} bg={useColorModeValue('gray.300','#313134')} /> 
                 </Link>
             </Box>
-            <Box
-            >
-                <Link href="https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=16280012787186252343" isExternal>
+            <Box>
+                <Link href="https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=16280012787186252343" variant="concealed" isExternal>
                     <IconButton aria-label="InfoJobs" icon={<InfoJobsLogo />} bg={useColorModeValue('gray.300','#313134')} /> 
                 </Link>
             </Box>
