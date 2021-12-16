@@ -21,8 +21,7 @@ const Page = () => {
         </Box>
 
         
-        
-        <Box  >
+        <Box>
             <SimpleGrid columns={2} spacing={10}>
                 <Box flexGrow={1}>
                 
@@ -72,7 +71,7 @@ const Page = () => {
 
         <NextLink href='/works'>
             <Button colorScheme='teal' size='sm' mt="5" rightIcon={<ChevronRightIcon/>}>
-            Portfolio&nbsp;
+            Portfolio
             </Button>
         </NextLink>
 
@@ -82,6 +81,7 @@ const Page = () => {
         <Heading as="h3" variant="section-title" mt={8}>
             Bio
         </Heading>
+
         <BioSection>
         <BioYear>1994</BioYear>
         Nacido en Mallorca
@@ -102,6 +102,7 @@ const Page = () => {
         <BioYear>2019 hasta actualidad</BioYear>
         Continuado mis estudios en desarrollo web y apps móviles
         </BioSection>
+
     </Section>
     <Section delay={0.3}>
         <Heading as="h3" variant="section-title" mt={8}>
@@ -119,9 +120,7 @@ const Page = () => {
             <Button colorScheme='teal' size='sm' mt="5" rightIcon={<EmailIcon/>}>
             Pongámonos en Contacto 
             </Button>
-        </NextLink>
-        
-        
+        </NextLink> 
     </Section>
     </Container> 
     </Layout>
