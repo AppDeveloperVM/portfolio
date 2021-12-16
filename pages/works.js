@@ -26,15 +26,13 @@ const Works = () => {
                 </Box>
             </SimpleGrid>
 
-
             <SimpleGrid  columns={[1]}  gap={6} spacing={10} mt="10">
-    
                 <Box>
                     <Heading as="h4" size="md" align="center" padding={3}>
                         <Link isExternal href="https://www.softline.es/web/">SoftLine Informática</Link>
                     </Heading>
 
-                    <WorkGridItem  id="peritoline" title="PeritoLine" thumbnail="/images/Peritoline_.png" url="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales"  badges={["js","php","symfony"]} >
+                    <WorkGridItem  title="PeritoLine" thumbnail="/images/Peritoline_.png" url="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales"  badges={["js","php","symfony"]} >
                         App para la gestión de peritajes
                     </WorkGridItem>
 
@@ -46,11 +44,11 @@ const Works = () => {
                     </Heading>
             <SimpleGrid  columns={[1,1,2]}  gap={6} spacing={10}   >
              
-                <WorkGridItem  id="clubdelsuscriptor" title="Club del suscriptor" thumbnail="/images/Clubdelsuscriptor_.png" url="https://www.clubdelsuscriptor.com" badges={[]} >
+                <WorkGridItem title="Club del suscriptor" thumbnail="/images/Clubdelsuscriptor_.png" url="https://www.clubdelsuscriptor.com" badges={[]} >
                     Web dedicada a los eventos de un grupo selecto
                 </WorkGridItem>
 
-                <WorkGridItem  id="novaproducciones" title="Nova Producciones" thumbnail="/images/novaProducciones.png" url="https://www.novaproducciones.es" >
+                <WorkGridItem title="Nova Producciones" thumbnail="/images/novaProducciones.png" url="https://www.novaproducciones.es" >
                     División de audio visuales del Grupo Serra
                 </WorkGridItem>
 
