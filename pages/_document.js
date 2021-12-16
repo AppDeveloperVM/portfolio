@@ -7,6 +7,7 @@ export default class Document extends NextDocument {
         return (
             <Html lang="en">
                 <Head />
+                <link rel="icon" href="/images/favicon_classic.png"></link>
                 <body>
                     <ColorModeScript initialColorMode={theme.config.initialColorMode}/>
                     <Main />
