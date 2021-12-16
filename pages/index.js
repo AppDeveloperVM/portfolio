@@ -5,6 +5,7 @@ import { EmailIcon } from '@chakra-ui/icons'
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import InfoJobsLogo from '../components/infojobs-icon';
 import Section from '../components/section';
+import Paragraph from '../components/paragraph'
 import CodeWriting from "../components/code-writing";
 import Layout from "../components/layouts/article";
 
@@ -59,6 +60,17 @@ const Page = () => {
     <Section delay={0.1} mt={10}>
         <Heading as="h3" variant="section-title">
             Sobre mi
+        </Heading>
+
+        <Paragraph>
+                Víctor es un joven desarrollador residente en Terrasa ( Cataluña ), 
+                con pasión por hacer de la tecnología una compañera que solucione los problemas cuotidianos.
+                Le gusta experimentar con todo lo relacionado del mundo web y descubrir nuevas formas de optimizar el trabajo.<br/>
+                En su tiempo libre, adora salir a pasear con sus patines en línea e ir al cine.
+        </Paragraph>
+
+        <Heading as="h3" variant="section-title" mt={8}>
+            Contacto
         </Heading>
 
         <Heading as="h2" size="md">
