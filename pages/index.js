@@ -88,7 +88,7 @@ const Page = () => {
         </BioSection>
         <BioSection>
         <BioYear>2016</BioYear>
-        Terminados estudios de grado superior en Desarrollo de aplicaciones Web
+        Terminados estudios de grado superior en Desarrollo de apps Web
         </BioSection>
         <BioSection>
         <BioYear>2016</BioYear>
