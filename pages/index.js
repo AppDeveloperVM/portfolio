@@ -1,13 +1,14 @@
 import { Container,Box,Heading, Text, SimpleGrid,HStack, Button,IconButton,Link, Avatar, useColorModeValue } 
 from "@chakra-ui/react"
 import NextLink from 'next/link'
-import { EmailIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import InfoJobsLogo from '../components/infojobs-icon';
 import Section from '../components/section';
 import Paragraph from '../components/paragraph'
 import CodeWriting from "../components/code-writing";
 import Layout from "../components/layouts/article";
+import { BioSection, BioYear } from '../components/bio'
 
 
 const Page = () => {
@@ -69,20 +70,54 @@ const Page = () => {
                 En su tiempo libre, adora salir a pasear con sus patines en línea e ir al cine.
         </Paragraph>
 
+        <NextLink href='/works'>
+            <Button colorScheme='teal' size='sm' mt="5" rightIcon={<ChevronRightIcon/>}>
+            Portfolio&nbsp;
+            </Button>
+        </NextLink>
+
+    </Section>
+    <Section delay={0.2}>
+
+        <Heading as="h3" variant="section-title" mt={8}>
+            Bio
+        </Heading>
+        <BioSection>
+        <BioYear>1994</BioYear>
+        Nacido en Mallorca
+        </BioSection>
+        <BioSection>
+        <BioYear>2016</BioYear>
+        Terminados estudios de grado superior en Desarrollo de aplicaciones Web
+        </BioSection>
+        <BioSection>
+        <BioYear>2016</BioYear>
+        Trabajado en SoftLine Informática
+        </BioSection>
+        <BioSection>
+        <BioYear>2018</BioYear>
+        Trabajado en Hora Nova S.A.
+        </BioSection>
+        <BioSection>
+        <BioYear>2019 hasta actualidad</BioYear>
+        Continuado mis estudios en desarrollo web y apps móviles
+        </BioSection>
+    </Section>
+    <Section delay={0.3}>
         <Heading as="h3" variant="section-title" mt={8}>
             Contacto
         </Heading>
 
-        <Heading as="h2" size="md">
+        <Heading as="h4" size="md">
             ¿Renovar la imagen de tu empresa? ¿Desarrollar una nueva página web?
         </Heading>
-        <Heading as="h2" size="lg" mt="3">
+        <Heading as="h4" size="lg" mt="3">
             Yo puedo ayudarte!
         </Heading>
 
         <NextLink href='mailto:vicmr1994@gmail.com?subject=Propuesta%20de%20desarrollo%20web&body=Estoy%20interesado%20en%20pedir%20presupuesto%20para%20un%20proyecto%20web.'>
-            <Button colorScheme='teal' size='sm' mt="5">
-            Pongámonos en Contacto &nbsp;<EmailIcon></EmailIcon>
+            <Button colorScheme='teal' size='sm' mt="5" rightIcon={<EmailIcon/>}>
+            Pongámonos en Contacto 
             </Button>
         </NextLink>
         
