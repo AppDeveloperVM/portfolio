@@ -64,9 +64,9 @@ const Page = () => {
 
         <Paragraph>
                 Víctor es un joven desarrollador residente en Terrasa ( Cataluña ), 
-                con pasión por hacer de la tecnología una compañera que solucione los problemas cuotidianos.
+                con pasión por hacer de la tecnología una compañera que solucione los problemas cotidianos.
                 Le gusta experimentar con todo lo relacionado del mundo web y descubrir nuevas formas de optimizar el trabajo.<br/>
-                En su tiempo libre, adora salir a pasear con sus patines en línea e ir al cine.
+                En su tiempo libre, le encanta salir a pasear con sus patines en línea e ir al cine.
         </Paragraph>
 
         <NextLink href='/works'>
