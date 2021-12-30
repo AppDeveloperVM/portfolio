@@ -26,7 +26,7 @@ const Develop = () => {
             </WorkGridItem>
 
             <WorkGridItem  id="dfplayerminimp3" title="DFPlayerMini MP3" url="" thumbnail="/images/dfplayermini_mp3_1.jpg" thumbnail_type='contain' badges={["arduino"]} >
-                Proyecto reproductor mp3 minimalista desarrollado en Arduino.
+                Proyecto reproductor mp3 minimalista.
             </WorkGridItem>
 
         </SimpleGrid>
