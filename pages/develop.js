@@ -25,7 +25,7 @@ const Develop = () => {
                 App para la búsqueda de establecimientos con disponibilidad.
             </WorkGridItem>
 
-            <WorkGridItem  id="dfplayerminimp3" title="DFPlayerMini MP3" url="" thumbnail="/images/dfplayermini_mp3_1.jpg" thumbnail_type='contain' badges={["angular","ionic","js", "leaflet"]} >
+            <WorkGridItem  id="dfplayerminimp3" title="DFPlayerMini MP3" url="" thumbnail="/images/dfplayermini_mp3_1.jpg" thumbnail_type='contain' badges={["arduino"]} >
                 Proyecto reproductor mp3 minimalista desarrollado en Arduino.
             </WorkGridItem>
 
