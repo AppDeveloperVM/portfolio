@@ -21,6 +21,10 @@ const Develop = () => {
                 App para la planificación de eventos enfocados al cosplay
             </WorkGridItem>
 
+            <WorkGridItem  id="spaceavailable" title="Space Available" url="" thumbnail="/images/spaceAvailable1.png" thumbnail_type='contain' badges={["angular","ionic","js", "leaflet"]} >
+                App para la búsqueda de establecimientos con disponibilidad.
+            </WorkGridItem>
+
         </SimpleGrid>
         </Section>
     </Container>
