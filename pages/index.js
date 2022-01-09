@@ -100,7 +100,7 @@ const Page = () => {
         </BioSection>
         <BioSection>
         <BioYear>2019 hasta actualidad</BioYear>
-        Continuado mis estudios en desarrollo web y apps móviles
+        Continuado sus estudios en desarrollo web y apps móviles
         </BioSection>
 
     </Section>
