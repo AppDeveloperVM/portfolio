@@ -38,7 +38,7 @@ const Page = () => {
                 </Box>
             </SimpleGrid>
         </Box>
-        <HStack mb={10} columns={1,2} mt={3}>
+        <HStack mb={10} columns={3} mt={3}>
             <Box>
                 <Link href="https://github.com/AppDeveloperVM" variant="concealed" isExternal>
                     <IconButton aria-label="GitHub" icon={<BsGithub />} bg={useColorModeValue('gray.300','#313134')} /> 
