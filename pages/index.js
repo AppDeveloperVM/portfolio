@@ -116,11 +116,11 @@ const Page = () => {
             Yo puedo ayudarte!
         </Heading>
 
-        
-            <Button href="mailto:vicmr1994@gmail.com?subject=Propuesta%20de%20desarrollo%20web&body=Estoy%20interesado%20en%20pedir%20presupuesto%20para%20un%20proyecto%20web" colorScheme='teal' size='sm' mt="5" rightIcon={<EmailIcon/>}>
+        <Link isExternal href="mailto:vicmr1994@gmail.com?subject=Propuesta%20de%20desarrollo%20web&body=Estoy%20interesado%20en%20pedir%20presupuesto%20para%20un%20proyecto%20web" passHref>
+            <Button colorScheme='teal' size='sm' mt="5" rightIcon={<EmailIcon/>}>
             Pongámonos en Contacto 
             </Button>
-       
+        </Link> 
     </Section>
     </Container> 
     </Layout>
