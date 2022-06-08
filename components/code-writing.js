@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 
-const line = "Hello, I'm a full-stack Web developer"
+const line = "Hello, I'm a front-end Web developer"
 const sentence = {
 
     before: { 

@@ -29,7 +29,7 @@ const Page = () => {
                         Víc Maree R.
                     </Heading>
                     <p>
-                        Full Stack Developer 
+                        FrontEnd Developer 
                     </p>    
                              
                 </Box>
