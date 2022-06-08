@@ -99,8 +99,12 @@ const Page = () => {
         Trabajado en Hora Nova S.A.
         </BioSection>
         <BioSection>
-        <BioYear>2019 hasta actualidad</BioYear>
+        <BioYear>2019</BioYear>
         Continuado sus estudios en desarrollo web y apps móviles
+        </BioSection>
+        <BioSection>
+        <BioYear>2022 Febrero hasta Actualidad</BioYear>
+        Trabajado en SECE
         </BioSection>
 
     </Section>
