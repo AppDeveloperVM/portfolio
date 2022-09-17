@@ -103,7 +103,7 @@ const Page = () => {
         Continuado sus estudios en desarrollo web y apps móviles
         </BioSection>
         <BioSection>
-        <BioYear>2022 Febrero hasta Actualidad</BioYear>
+        <BioYear>2021 - 2022</BioYear>
         Trabajado en SECE
         </BioSection>
 
