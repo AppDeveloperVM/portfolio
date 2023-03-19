@@ -60,7 +60,7 @@ const Works = () => {
                         <Link isExternal href="https://sece.com/">SECE | Smart Lightning & City Technologies</Link>
                     </Heading>
 
-                    <WorkGridItem  title="SUIPHOS" thumbnail="/images/suiphos.png" url="https://sece.com/servicios/software/"  badges={["js","angularJS"]} >
+                    <WorkGridItem  title="SUIPHOS" thumbnail="/images/suiphos.jpg" url="https://sece.com/servicios/software/"  badges={["js","angularJS"]} >
                         Smart Urban Control System
                     </WorkGridItem>
 
