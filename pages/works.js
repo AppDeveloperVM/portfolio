@@ -40,8 +40,8 @@ const Works = () => {
             </SimpleGrid>
 
             <Heading as="h4" size="md" align="center" padding={3} mt="10">
-                    <Link href="http://www.horanova.es/" isExternal>Hora Nova ( <Link isExternal href="https://www.gruposerra.com/">Grupo Serra</Link> )</Link> - <Link href="https://www.ultimahora.es/" is External>Última Hora</Link>
-                    </Heading>
+                <Link href="http://www.horanova.es/" isExternal>Hora Nova ( <Link isExternal href="https://www.gruposerra.com/">Grupo Serra</Link> )</Link> - <Link href="https://www.ultimahora.es/" is External>Última Hora</Link>
+            </Heading>
             <SimpleGrid  columns={[1,1,2]}  gap={6} spacing={10}   >
              
                 <WorkGridItem title="Club del suscriptor" thumbnail="/images/Clubdelsuscriptor_.png" url="https://www.clubdelsuscriptor.com" badges={[]} >
@@ -52,6 +52,32 @@ const Works = () => {
                     División de audio visuales del Grupo Serra
                 </WorkGridItem>
 
+            </SimpleGrid>
+
+            <SimpleGrid  columns={[1]}  gap={6} spacing={10} mt="10">
+                <Box>
+                    <Heading as="h4" size="md" align="center" padding={3}>
+                        <Link isExternal href="https://sece.com/">SECE | Smart Lightning & City Technologies</Link>
+                    </Heading>
+
+                    <WorkGridItem  title="PeritoLine" thumbnail="/images/suiphos.jpeg" url="https://sece.com/servicios/software/"  badges={["js","angularJS"]} >
+                        SUIPHOS | Smart urban control system
+                    </WorkGridItem>
+
+                </Box>
+            </SimpleGrid>
+
+            <SimpleGrid  columns={[1]}  gap={6} spacing={10} mt="10">
+                <Box>
+                    <Heading as="h4" size="md" align="center" padding={3}>
+                        <Link isExternal href="https://www.holacons.com/">Hola Consultora</Link>
+                    </Heading>
+
+                    <WorkGridItem  title="HolaCons" thumbnail="/images/volotea.png" url="https://www.volotea.com/es/"  badges={["js","angular2+"]} >
+                        Volotea web apps
+                    </WorkGridItem>
+
+                </Box>
             </SimpleGrid>
 
         </Section>
