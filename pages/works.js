@@ -60,8 +60,8 @@ const Works = () => {
                         <Link isExternal href="https://sece.com/">SECE | Smart Lightning & City Technologies</Link>
                     </Heading>
 
-                    <WorkGridItem  title="PeritoLine" thumbnail="/images/suiphos.jpeg" url="https://sece.com/servicios/software/"  badges={["js","angularJS"]} >
-                        SUIPHOS | Smart urban control system
+                    <WorkGridItem  title="SUIPHOS" thumbnail="/images/suiphos.png" url="https://sece.com/servicios/software/"  badges={["js","angularJS"]} >
+                        Smart Urban Control System
                     </WorkGridItem>
 
                 </Box>
@@ -73,8 +73,8 @@ const Works = () => {
                         <Link isExternal href="https://www.holacons.com/">Hola Consultora</Link>
                     </Heading>
 
-                    <WorkGridItem  title="HolaCons" thumbnail="/images/volotea.png" url="https://www.volotea.com/es/"  badges={["js","angular2+"]} >
-                        Volotea web apps
+                    <WorkGridItem  title="Volotea web apps" thumbnail="/images/volotea.png" url="https://www.volotea.com/es/"  badges={["js","angular2+"]} >
+                        
                     </WorkGridItem>
 
                 </Box>
