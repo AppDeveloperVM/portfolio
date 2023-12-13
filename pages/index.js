@@ -9,6 +9,7 @@ import Paragraph from '../components/paragraph'
 import CodeWriting from "../components/code-writing";
 import Layout from "../components/layouts/article";
 import { BioSection, BioYear } from '../components/bio'
+import { WorkGridItem } from "../components/grid-item";
 
 
 const Page = () => {
@@ -26,15 +27,15 @@ const Page = () => {
                 <Box flexGrow={1}>
                 
                     <Heading as="h2" variant="page-title" letterSpacing="5px">
-                        Víc Maree R.
+                        Elia Moliner
                     </Heading>
                     <p>
-                        FrontEnd Developer 
+                        Illustrator
                     </p>    
                              
                 </Box>
                 <Box flexGrow={1}>
-                    <Avatar direction="right" mr={10} size="xl" name="Víc M" src="/images/profile_image.jpg" />
+                    <Avatar direction="right" mr={10} size="xl" name="Víc M" src="/images/500x400.png" />
                 </Box>
             </SimpleGrid>
         </Box>
@@ -57,16 +58,44 @@ const Page = () => {
             </Box>
         </HStack>
 
+    <SimpleGrid  columns={[1]}  gap={6} spacing={10} mt="10">
+        <Box>
+            <WorkGridItem title="" thumbnail="/images/500x400.png" url="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales" >
+            </WorkGridItem>
+        </Box>
+    </SimpleGrid>
+
+    <SimpleGrid  columns={[1,1,2]}  gap={6} spacing={10} mt="20"> 
+        <WorkGridItem title="" thumbnail="/images/Clubdelsuscriptor_.png" url="https://www.clubdelsuscriptor.com" >
+        </WorkGridItem>
+
+        <WorkGridItem title="" thumbnail="/images/novaProducciones.png" url="https://www.novaproducciones.es" >
+        </WorkGridItem>
+    </SimpleGrid>
+
+    <SimpleGrid  columns={[1,1,2]}  gap={6} spacing={10}>   
+        <WorkGridItem title="" thumbnail="/images/Clubdelsuscriptor_.png" url="https://www.clubdelsuscriptor.com" >
+        </WorkGridItem>
+
+        <WorkGridItem title="" thumbnail="/images/novaProducciones.png" url="https://www.novaproducciones.es" >
+        </WorkGridItem>
+    </SimpleGrid>
+
+    <SimpleGrid  columns={[1,1,2]}  gap={6} spacing={10}>
+        <WorkGridItem title="" thumbnail="/images/Clubdelsuscriptor_.png" url="https://www.clubdelsuscriptor.com" >
+        </WorkGridItem>
+
+        <WorkGridItem title="" thumbnail="/images/novaProducciones.png" url="https://www.novaproducciones.es" >
+        </WorkGridItem>
+    </SimpleGrid>
+
     <Section delay={0.1} mt={10}>
         <Heading as="h3" variant="section-title">
-            Sobre mi
+            Mis trabajos
         </Heading>
 
         <Paragraph>
-                Víctor es un joven desarrollador residente en Terrasa ( Cataluña ), 
-                con pasión por hacer de la tecnología una compañera que solucione los problemas cotidianos.
-                Le gusta experimentar con todo lo relacionado del mundo web y descubrir nuevas formas de optimizar el trabajo.<br/>
-                En su tiempo libre, le encanta salir a pasear con sus patines en línea e ir al cine.
+            
         </Paragraph>
 
         <NextLink href='/works'>
@@ -76,56 +105,11 @@ const Page = () => {
         </NextLink>
 
     </Section>
-    <Section delay={0.2}>
 
-        <Heading as="h3" variant="section-title" mt={8}>
-            Bio
-        </Heading>
-
-        <BioSection>
-        <BioYear>1994</BioYear>
-        Nacido en Mallorca
-        </BioSection>
-        <BioSection>
-        <BioYear>2016</BioYear>
-        Terminados estudios de grado superior en Desarrollo de apps Web
-        </BioSection>
-        <BioSection>
-        <BioYear>2016</BioYear>
-        Trabajado en SoftLine Informática
-        </BioSection>
-        <BioSection>
-        <BioYear>2018</BioYear>
-        Trabajado en Hora Nova S.A.
-        </BioSection>
-        <BioSection>
-        <BioYear>2020</BioYear>
-        Continuado sus estudios en desarrollo web y apps móviles
-        </BioSection>
-        <BioSection>
-        <BioYear>2021</BioYear>
-        Mudanza a Barcelona, continuados estudios en Arduino, Android y Angular2+
-        </BioSection>
-        <BioSection>
-        <BioYear>2022</BioYear>
-        Trabajado en SECE
-        </BioSection>
-        <BioSection>
-        <BioYear>2023</BioYear>
-        Trabajado en Hola Consultores
-        </BioSection>
-
-    </Section>
+    
     <Section delay={0.3}>
         <Heading as="h3" variant="section-title" mt={8}>
             Contacto
-        </Heading>
-
-        <Heading as="h4" size="md">
-            ¿Renovar la imagen de tu empresa? ¿Desarrollar una nueva página web?
-        </Heading>
-        <Heading as="h4" size="lg" mt="3">
-            Yo puedo ayudarte!
         </Heading>
 
         <Link isExternal href="mailto:vicmr1994@gmail.com?subject=Propuesta%20de%20desarrollo%20web&body=Estoy%20interesado%20en%20pedir%20presupuesto%20para%20un%20proyecto%20web" passHref>

@@ -23,9 +23,9 @@ const Work = () => {
                 Libreria <Link href='https://leafletjs.com'>Leaflet <ExternalLinkIcon mx="2px"/></Link>
             </ListItem>
             </List>
-        <WorkImage src="/images/spaceAvailable1.png" alt="SpaceAvailable" mt={3}/>
-        <WorkImage src="/images/spaceAvailable2.png" alt="SpaceAvailable" />
-        <WorkImage src="/images/spaceAvailable3.jpg" alt="SpaceAvailable" />
+        <WorkImage src="/images/500x400.png" alt="SpaceAvailable" mt={3}/>
+        <WorkImage src="/images/500x400.png" alt="SpaceAvailable" />
+        <WorkImage src="/images/500x400.png" alt="SpaceAvailable" />
         </Container>
         </Layout>
     )

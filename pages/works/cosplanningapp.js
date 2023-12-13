@@ -21,7 +21,7 @@ const Work = () => {
                 <Link href=''>CosPlanningApp <ExternalLinkIcon mx="2px"/></Link>
             </ListItem>
         </List>
-        <WorkImage src="/images/cosplayplanningapp_1.jpg" alt="CosPlanningApp" />
+        <WorkImage src="/images/500x400.png" alt="CosPlanningApp" />
         </Container>
         </Layout>
     )

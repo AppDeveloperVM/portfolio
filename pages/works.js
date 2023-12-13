@@ -42,7 +42,7 @@ const Works = () => {
             <Heading as="h4" size="md" align="center" padding={3} mt="10">
                 <Link href="http://www.horanova.es/" isExternal>Hora Nova ( <Link isExternal href="https://www.gruposerra.com/">Grupo Serra</Link> )</Link> - <Link href="https://www.ultimahora.es/" is External>Última Hora</Link>
             </Heading>
-            <SimpleGrid  columns={[1,1,2]}  gap={6} spacing={10}   >
+            <SimpleGrid  columns={[1,1,2]}  gap={6} spacing={10}>
              
                 <WorkGridItem title="Club del suscriptor" thumbnail="/images/Clubdelsuscriptor_.png" url="https://www.clubdelsuscriptor.com" badges={["js","php","symfony"]} >
                     Web dedicada a los eventos de un grupo selecto

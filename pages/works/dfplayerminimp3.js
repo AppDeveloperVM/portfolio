@@ -15,9 +15,9 @@ const Work = () => {
         <P>
             Proyecto desarrollado enteramente en Arduino sobre la creación de un MP3 minimalista.
         </P>
-        <WorkImage src="/images/dfplayermini_mp3_1.jpg" alt="DFPlayerMini" />
-        <WorkImage src="/images/dfplayermini_mp3_2.jpg" alt="DFPlayerMini" />
-        <WorkImage src="/images/dfplayermini_mp3_3.jpg" alt="DFPlayerMini" size={'100%'} />
+        <WorkImage src="/images/500x400.png" alt="DFPlayerMini" />
+        <WorkImage src="/images/500x400.png" alt="DFPlayerMini" />
+        <WorkImage src="/images/500x400.png" alt="DFPlayerMini" size={'100%'} />
         </Container>
         </Layout>
     )
