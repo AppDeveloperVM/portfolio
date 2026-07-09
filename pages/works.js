@@ -32,7 +32,7 @@ const Works = () => {
                         <Link isExternal href="https://www.softline.es/web/">SoftLine Informática</Link>
                     </Heading>
 
-                    <WorkGridItem  title="PeritoLine" thumbnail="/images/Peritoline_.png" url="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales"  badges={["js","php","symfony"]} >
+                    <WorkGridItem  title="PeritoLine" thumbnail="/images/Peritoline_.png" url="https://www.softline.es/web/portfolio/view/2/peritoline-aplicacion-de-gestion-integral-de-despachos-periciales"  badges={["js", "php", "symfony"]} >
                         App para la gestión de peritajes
                     </WorkGridItem>
 
@@ -44,11 +44,11 @@ const Works = () => {
             </Heading>
             <SimpleGrid  columns={[1,1,2]}  gap={6} spacing={10}   >
              
-                <WorkGridItem title="Club del suscriptor" thumbnail="/images/Clubdelsuscriptor_.png" url="https://www.clubdelsuscriptor.com" badges={["js","php","symfony"]} >
+                <WorkGridItem title="Club del suscriptor" thumbnail="/images/Clubdelsuscriptor_.png" url="https://www.clubdelsuscriptor.com" badges={["js", "php", "symfony"]} >
                     Web dedicada a los eventos de un grupo selecto
                 </WorkGridItem>
 
-                <WorkGridItem title="Nova Producciones" thumbnail="/images/novaProducciones.png" url="https://www.novaproducciones.es" badges={["js","php","symfony"]}>
+                <WorkGridItem title="Nova Producciones" thumbnail="/images/novaProducciones.png" url="https://www.novaproducciones.es" badges={["js", "php", "symfony"]}>
                     División de audio visuales del Grupo Serra
                 </WorkGridItem>
 
@@ -60,7 +60,7 @@ const Works = () => {
                         <Link isExternal href="https://sece.com/">SECE | Smart Lightning & City Technologies</Link>
                     </Heading>
 
-                    <WorkGridItem  title="SUIPHOS" thumbnail="/images/suiphos.jpg" url="https://sece.com/servicios/software/"  badges={["js","angularJS"]} >
+                    <WorkGridItem  title="SUIPHOS" thumbnail="/images/suiphos.jpg" url="https://sece.com/servicios/software/"  badges={["js", "angularJS"]} >
                         Smart Urban Control System
                     </WorkGridItem>
 
@@ -73,7 +73,20 @@ const Works = () => {
                         <Link isExternal href="https://www.holacons.com/">Hola Consultores</Link>
                     </Heading>
 
-                    <WorkGridItem  title="Volotea web apps" thumbnail="/images/volotea.png" url="https://www.volotea.com/es/"  badges={["js","angular2+"]} >
+                    <WorkGridItem  title="Volotea web apps" thumbnail="/images/volotea.png" url="https://www.volotea.com/es/"  badges={["js", "angular2+"]} >
+                        
+                    </WorkGridItem>
+
+                </Box>
+            </SimpleGrid>
+
+            <SimpleGrid  columns={[1]}  gap={6} spacing={10} mt="10">
+                <Box>
+                    <Heading as="h4" size="md" align="center" padding={3}>
+                        <Link isExternal href="https://www.holacons.com/">Sothis</Link>
+                    </Heading>
+
+                    <WorkGridItem  title="Sothis" thumbnail="/images/logo-sothis.png" url="https://www.sothis.tech/"  badges={["typescript", "angular2+", "react js"]} >
                         
                     </WorkGridItem>
 
